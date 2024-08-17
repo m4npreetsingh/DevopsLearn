@@ -1,0 +1,14 @@
+bin/
+obj/
+publish/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code specific files
+.vscode/
+
+# Dotnet restore packages
+packages/
