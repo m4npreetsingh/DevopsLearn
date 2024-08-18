@@ -48,7 +48,7 @@ app.MapGet("/testingnew", () =>
         .ToArray();
     return forecast;
 })
-.WithName("GetWeatherForecastTesting")
+.WithName("GetWeatherForecastTestings")
 .WithOpenApi();
 
 app.Run();
